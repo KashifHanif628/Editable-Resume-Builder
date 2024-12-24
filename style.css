@@ -1,0 +1,91 @@
+#resume-display {
+    margin: auto;
+    max-width: 800px; /* Match the form width */
+    background-color:rgb(184, 204, 197); /* Optional, just to make the resume look better */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1); /* Optional, for a nicer effect */
+    outline: none;  /* for editable resume */
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: xx-large;
+}
+
+h3 {
+    color: #555;
+    font-style: bold;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: honeydew;
+    padding: 0;
+    margin: 20px;
+}
+
+form {
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 6px 8px; color: black;
+    padding: 20px;
+    max-width: 800px;
+    background-color: darkgray;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size:x-large;
+}
+
+fieldset {
+    border-color: skyblue;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
+
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 50%;
+    background-color: gold;
+    color: white;
+    border: round;
+    border-radius: 4px;
+    box-shadow: 0 6px 8px; color: black;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    color:cornsilk;
+}
+
